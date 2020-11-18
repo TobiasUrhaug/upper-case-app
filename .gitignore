@@ -1,9 +1,16 @@
 .gradle
 build/
 
+# npm
+node_modules/*
+
 # MAC OS 
 .DS_Store
 
 # IDE
 .idea/
 *.iml
+
+# Cypress
+cypress/screenshots/*
+cypress/videos/*
