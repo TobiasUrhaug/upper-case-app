@@ -10,6 +10,10 @@ describe('Upper case app', function () {
           .should('include', 'uppercase')
         cy.get('[data-test=upper-case-result]')
           .should('contain', 'TEST')
+        cy.get('[data-test=back]')
+          .click()
+        cy.url()
+          .should('eq', 'http://localhost:8080/')
     })
 
 })

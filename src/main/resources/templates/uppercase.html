@@ -9,5 +9,10 @@
        <h2 th:text="${'The uppercase of ' + input + ' is: ' + uppercase}" data-test="upper-case-result">
        </h2>
     </div>
+    <div>
+        <button type="button" data-test="back">
+            <a th:href="@{/}">Go Back</a>
+        </button>
+    </div>
 </body>
 </html>
