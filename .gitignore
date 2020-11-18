@@ -10,3 +10,7 @@ node_modules/*
 # IDE
 .idea/
 *.iml
+
+# Cypress
+cypress/screenshots/*
+cypress/videos/*
